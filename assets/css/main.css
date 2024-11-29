@@ -1329,4 +1329,7 @@ section,
   font-size: 26px;
 }
 
+.justified-text {
+  text-align: justify;
+}
 

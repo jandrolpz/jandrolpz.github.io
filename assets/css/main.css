@@ -718,6 +718,20 @@ section,
   background-color: var(--accent-color);
 }
 
+.skills-list {
+  list-style-type: disc; /* Muestra puntos como marcadores */
+  padding-left: 20px; /* Espaciado desde el borde izquierdo */
+  line-height: 1.8; /* Espaciado entre líneas */
+  font-size: 1.1rem; /* Tamaño de fuente ajustado */
+  color: #333; /* Color del texto */
+}
+
+.skills-list li {
+  margin-bottom: 5px; /* Espaciado entre elementos */
+}
+
+
+
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
@@ -1290,4 +1304,29 @@ section,
   height: 100%;
   border: 0;
 }
+
+#call {
+  background-color: rgb(244, 250, 253); /* Color de fondo oscuro */
+  color: #fff; /* Color del texto */
+  padding: 50px 20px; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
+  position: relative; /* Contexto para elementos posicionados */
+}
+
+.separate-paragraph {
+  /*position: absolute; /*Posiciona el texto relativo al contenedor */
+  background-color: rgb(244, 250, 253);
+  bottom: 20px; /* Ajusta el margen inferior */
+  margin-left: 10%;
+  width: 80%; /* Asegura que ocupe todo el ancho */
+  text-align: left; /* Centra el texto horizontalmente */
+  color: #000; /* Cambia el color según el fondo */
+  z-index: 3;
+}
+
+.separate-paragraph p {
+  margin: 5px 0 0 0;
+  font-size: 26px;
+}
+
 

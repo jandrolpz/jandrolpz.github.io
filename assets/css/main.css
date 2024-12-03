@@ -1333,3 +1333,25 @@ section,
   text-align: justify;
 }
 
+
+/*___________
+
+/* Estilo del párrafo */
+.cta-paragraph {
+  font-size: 26px; /* Tamaño del texto */
+  line-height: 1.5; /* Espaciado entre líneas */
+  color: #000; /* Color del texto */
+  text-align: left; /* Alineación del texto */
+  margin: 0; /* Elimina márgenes adicionales */
+  display: inline-flex; /* Mantiene la imagen y texto en línea */
+  align-items: center; /* Alinea la imagen con el texto verticalmente */
+}
+
+/* Estilo de la imagen en línea */
+.inline-image {
+  max-width: 40px; /* Tamaño pequeño como un emoji */
+  height: auto; /* Mantén las proporciones */
+  margin-left: 8px; /* Espaciado entre el texto y la imagen */
+  vertical-align: middle; /* Alinea con el centro del texto */
+}
+

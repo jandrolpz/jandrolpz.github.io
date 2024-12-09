@@ -183,3 +183,29 @@ body {
 .menu-button:hover {
     background-color: #273849;
 }
+
+/* Contenedor del botón */
+.load-more-container {
+    text-align: center;
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Botón de "Cargar más" */
+.load-more-button {
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.load-more-button:hover {
+    background-color: #313e4b;
+}
+
+.load-more-button:active {
+    background-color: #003f7f;
+}

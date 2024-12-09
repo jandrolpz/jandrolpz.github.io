@@ -6,8 +6,18 @@
     <title>My Event Map</title>
     <!-- Ruta al archivo CSS actualizado -->
     <link href="assets/css/styles.css" rel="stylesheet">
+    <script src="assets/js/menu.js"></script>
+
 </head>
 <body>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">☰</div>
+            <div class="menu-content" id="menuContent">
+                <button class="menu-button">Registro</button>
+                <button class="menu-button">Perfil</button>
+            </div>
+        </div>
+
         <div class="container">
             <div class="profile">
                 <img src="assets/img/event2.jpg" alt="Foto de perfil" class="profile-pic">

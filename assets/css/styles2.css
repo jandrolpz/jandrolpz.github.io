@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #6697a7b9;
+    background-color: #343f42b9;
     margin: 0;
     padding: 60px 0 0; /* Añade 60px de espacio en la parte superior */
     display: flex;
@@ -15,7 +15,7 @@ body {
     max-width: 400px;
     margin-bottom: 30px; /* Espaciado entre bloques */
     text-align: center;
-    background: #768ca0;
+    background: #48525f;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -51,7 +51,7 @@ body {
 .link-button {
     text-decoration: none;
     color: white;
-    background-color: #231f35;
+    background-color: #1a2638;
     padding: 10px 15px;
     border-radius: 8px;
     font-size: 1em;
@@ -59,7 +59,7 @@ body {
 }
 
 .link-button:hover {
-    background-color: #020338;
+    background-color: #022038;
 }
 
 /* Estilo para las tarjetas de eventos */

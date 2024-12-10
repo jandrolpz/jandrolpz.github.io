@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a87294b9;
+    margin: 0;
+    padding: 60px 0 0; /* Añade 60px de espacio en la parte superior */
+    display: flex;
+    flex-direction: column; /* Apila los contenedores verticalmente */
+    align-items: center;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 30px; /* Espaciado entre bloques */
+    text-align: center;
+    background: #a455a7;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Perfil */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.bio {
+    font-size: 0.9em;
+    color: #dddddd;
+    margin-bottom: 20px;
+}
+
+/* Bloque de enlaces */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.link-button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #c2aebf;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.link-button:hover {
+    background-color: #022038;
+}
+
+/* Estilo para las tarjetas de eventos */
+.event-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Información del evento */
+.event-info {
+    flex: 1;
+    text-align: left;
+}
+
+.event-date {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.event-time {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.event-description {
+    font-size: 0.85em;
+    color: #444;
+    margin-bottom: 0;
+}
+
+/* Imagen del evento */
+.event-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.section-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #5c254c;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer {
+    text-align: center;
+    /* background-color: #f9f9f9; */
+    color: #ffffff;
+    font-size: 0.9em;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+/* Estilo del contenedor del menú hamburguesa */
+.hamburger-menu {
+    position: fixed; /* Mantiene el icono fijo al hacer scroll */
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Asegura que el icono esté por encima de otros elementos */
+}
+
+/* Icono hamburguesa */
+.hamburger-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    user-select: none;
+    background-color: #273644;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del contenido del menú */
+.menu-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Botones dentro del menú */
+.menu-button {
+    background-color: #1a344e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-button:hover {
+    background-color: #273849;
+}
+
+/* Contenedor del botón */
+.load-more-container {
+    text-align: center;
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Botón de "Cargar más" */
+.load-more-button {
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.load-more-button:hover {
+    background-color: #313e4b;
+}
+
+.load-more-button:active {
+    background-color: #003f7f;
+}
+
+
+.link-button {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: center; /* Centra el texto en el botón */
+    position: relative; /* Permite posicionar la imagen de forma independiente */
+    text-decoration: none;
+    color: white;
+    background-color: #231f35;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.link-button:hover {
+    background-color: #020338;
+}
+
+/* Estilo para la imagen */
+.link-icon {
+    position: absolute; /* Posiciona la imagen independientemente del texto */
+    left: 10px; /* Desplaza la imagen hacia la izquierda del botón */
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+

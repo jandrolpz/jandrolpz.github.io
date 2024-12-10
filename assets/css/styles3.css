@@ -51,7 +51,7 @@ body {
 .link-button {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    background-color: #c2aebf;
+    background-color: #c7b4c4;
     padding: 10px 15px;
     border-radius: 8px;
     font-size: 1em;
@@ -59,7 +59,7 @@ body {
 }
 
 .link-button:hover {
-    background-color: #022038;
+    background-color: #a1a8ad;
 }
 
 /* Estilo para las tarjetas de eventos */
@@ -146,7 +146,7 @@ body {
     font-size: 1.5em;
     cursor: pointer;
     user-select: none;
-    background-color: #273644;
+    background-color: #894b91;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -168,7 +168,7 @@ body {
 
 /* Botones dentro del menú */
 .menu-button {
-    background-color: #1a344e;
+    background-color: #ca9ecf;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -217,8 +217,8 @@ body {
     justify-content: center; /* Centra el texto en el botón */
     position: relative; /* Permite posicionar la imagen de forma independiente */
     text-decoration: none;
-    color: white;
-    background-color: #231f35;
+    color: rgb(17, 17, 17);
+    background-color: #d8c9d7;
     padding: 10px 15px;
     border-radius: 8px;
     font-size: 1em;
@@ -226,7 +226,7 @@ body {
 }
 
 .link-button:hover {
-    background-color: #020338;
+    background-color: #b469b1;
 }
 
 /* Estilo para la imagen */
